@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.intro{
+
+    background-image: url(images/slider-01.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Nav .Nav-icon{
+    width: 100%;
+    /* background-color:rgb(153, 0, 255); */
+    /* position: fixed; */
+    top: 0px;
+    left: 0px;
+    float: right;
+}
+.Nav .Nav-icon ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  /* background-color: rgb(87, 28, 28); */
+
+}
+.Nav .Nav-icon ul li{
+    float:right;
+}
+ .Nav .Nav-icon ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    float: right;
+    padding: 14px 16px;
+    text-decoration: none;}
+
+.Nav-icon .fokir a{
+    color: #ff305b;
+    display: block;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 18px 50px;
+    margin: auto;
+}
+
+.clear-fix{
+    clear: both;
+} 
+.contan{
+    /* background-color: blue; */
+    text-align: center;
+    margin: auto;
+    padding-top: 200px;
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+.contan h1{
+    font-size: 70px;
+    font-weight: 800;
+    color: #ff305B;
+}
+.hello{
+    padding-top: 50px;
+    width: 70%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+}
+.picture{
+    width: 30%;
+    height: 70%;
+    position: relative;
+}
+.picture .caption{
+    background-color:#555555;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: top opacity 3s;
+
+}
+.hello .picture img{
+    border-radius: 5px;
+    width: 100%;
+
+}
+.picture:hover .caption{
+    opacity: .7;
+    top: 0%;
+}
+.Our-Portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    align-content: space-between;
+    width: 90%;
+    
+    margin: auto;
+
+}
+.some-photo {
+    width: 30%;
+}
+.some-photo img{
+    width: 100%;
+}
+
+/*navbar*/
+
+.container{width:80%;
+           margin: auto;}
+
+.navbar .container{display: flex;
+        padding:20px 0px; 
+       justify-content: space-between;}
+
+.logo{width:30%}       
+.links{width:70%}
+
+.links ul{display: flex;
+justify-content: space-between;}
+li{list-style-type: none;}
+a{text-decoration: none;}
